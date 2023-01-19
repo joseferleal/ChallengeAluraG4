@@ -9,6 +9,10 @@ var textoEncriptado = textoEncriptado.replace(/a/img, "ai");
 var textoEncriptado = textoEncriptado.replace(/u/img, "ufat");
 
 document.getElementById("textoDesencriptado").innerHTML=textoEncriptado;
+document.getElementById("ButtonCopiar").style.display="show";
+document.getElementById("ButtonCopiar").style.display="inherit";
+
+
 }
 
 function Desencriptar (){
