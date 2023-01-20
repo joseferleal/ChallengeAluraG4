@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +10,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
+
 
 <body>
     <header>
@@ -18,18 +21,24 @@
     <main>
         <section class="section1">
 
-            <input type="text" id="textoEncriptado"></input>
-            <br>
-            <button type="button" id="ButtonEncriptar" onclick="Encriptar()">Encriptar</button>
-            <br>
-            <button type="button" id="ButtonDesencriptar" onclick="Desencriptar()">Desencriptar</button>
-            <br>
-            <button type="button" id="ButtonCopiar" onclick="copiar()">Copiar</button>
+            <textarea id="textoEncriptado" cols="30" rows="10" placeholder="Escribe tu texto"></textarea> 
+            <div class="contenedor_botones">
+                <br>
+                <button type="button" class="botones" id="ButtonEncriptar" onclick="Encriptar()">Encriptar</button>
+                <br>
+                <button type="button" class="botones" id="ButtonDesencriptar" onclick="Desencriptar()">Desencriptar</button>
+                <br>
+                <button type="button" class="botones" id="ButtonCopiar" onclick="copiar()">Copiar</button>
+            </div>
+           
 
         </section>
-        <section class="section2">
 
-            <textarea name="resultado" id="textoDesencriptado" cols="30" rows="10"></textarea>
+        <section class="section2">
+            <div class="contenedor_imagen"><img src="Image.png" alt="Muñeco"></div>
+            <div class="contenedor_subtitle"><h3>No se encontró ningún mensaje</h3></div>
+            <div class="contenedor_p"><textarea id="textoDesencriptado" cols="30" rows="10" placeholder="Tu texto aparecerá aquí"></textarea></div>
+            
 
         </section>
 
@@ -37,11 +46,10 @@
     </main>
 
     <footer>
-
+            By JFLB
     </footer>
 
 
 
 </body>
-
 </html>

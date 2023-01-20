@@ -9,7 +9,7 @@
 header{
 
     width: 100%;
-    height: 60px;
+    height: 20%;
     background-color: bisque;
 }
 
@@ -21,15 +21,29 @@ header img{
 
 main{
     width: 100%;
-    height: 600px;
+    height: 60%;
     background-color:blanchedalmond;
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
+    
 }
 
-#section1{
+
+section{
     height: 100%;
     background-color: aliceblue;
+    border-radius: 20px;
+}
+
+.section1{
+    width: 60%;
+    margin-left: 20px;
+
+}
+
+.section2{
+    width: 30%;
+    margin-right: 20px;
 }
 
 
@@ -37,10 +51,89 @@ main{
 
 footer{
     width: 100%;
-    height: 60px;
-    background-color: azure;
+    height: 20%;
+    background-color: #000000;
 }
 
 #ButtonCopiar{
     display: none;
 }
+
+.contenedor_imagen{
+    width: 100%;
+    height: 60%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.contenedor_subtitle{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+
+.contenedor_p{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+
+}
+
+
+#textoDesencriptado{
+    background-color: aliceblue;
+    border: none;
+    resize: none;
+    text-align: center;
+   
+}
+
+#textoEncriptado{
+    width: 80%;
+    height: 60%;
+    resize: none;
+    display: block;
+    background-color: aliceblue;
+    border: none;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 2.5em;
+    border-radius: 10px;
+    outline: 0;
+}
+
+.contenedor_botones{
+    text-align: center;
+    margin-top: 10px;
+
+
+}
+.botones{
+    width: 30%;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+    background-color: azure;
+    color: black;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.botones:hover{
+    background-color: #d6cccb;
+    color: #000000;
+
+}
+
+
+footer{
+    font-size: 2rem;
+    text-align: center;
+    color: antiquewhite;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
