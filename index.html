@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,26 +10,38 @@
 </head>
 
 <body>
-    
-<input type="text" id="textoEncriptado"></input>
-<textarea name="resultado" id="textoDesencriptado" cols="30" rows="10"></textarea>
+    <header>
+        <img src="logo.png" alt="Logo Alura">
 
-<br>
-<button type="button" id="ButtonEncriptar">Encriptar</button>
-<br>
-<button type="button" id="ButtonDesencriptar">Desencriptar</button>
-<br>
-<button type="button" id="ButtonCopiar">Copiar</button>
+    </header>
+
+    <main>
+        <section class="section1">
+
+            <input type="text" id="textoEncriptado"></input>
+            <br>
+            <button type="button" id="ButtonEncriptar" onclick="Encriptar()">Encriptar</button>
+            <br>
+            <button type="button" id="ButtonDesencriptar" onclick="Desencriptar()">Desencriptar</button>
+            <br>
+            <button type="button" id="ButtonCopiar" onclick="copiar()">Copiar</button>
+
+        </section>
+        <section class="section2">
+
+            <textarea name="resultado" id="textoDesencriptado" cols="30" rows="10"></textarea>
+
+        </section>
+
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+
 
 </body>
-<script>
-    var btn = document.querySelector("#ButtonEncriptar");
-    btn.onclick = Encriptar;
-    var btn2 = document.querySelector("#ButtonDesencriptar");
-    btn2.onclick = Desencriptar;
-    var btn3 = document.querySelector("#ButtonCopiar");
-    btn3.onclick = copiar;
-</script>
-
 
 </html>

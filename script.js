@@ -1,3 +1,12 @@
+var btn = document.querySelector("#ButtonEncriptar");
+
+var btn2 = document.querySelector("#ButtonDesencriptar");
+
+var btn3 = document.querySelector("#ButtonCopiar")
+
+
+
+
 function Encriptar (){
 var frase = document.getElementById("textoEncriptado").value.toLowerCase();
 

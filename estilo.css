@@ -1,3 +1,46 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+} /*Lo anterior fue para eliminar márgenes y paddings que vienen por defecto. El asterisco representa todo el documento*/
+
+
+header{
+
+    width: 100%;
+    height: 60px;
+    background-color: bisque;
+}
+
+header img{
+    margin-left: 95px;
+    padding: 5px;
+
+}
+
+main{
+    width: 100%;
+    height: 600px;
+    background-color:blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+}
+
+#section1{
+    height: 100%;
+    background-color: aliceblue;
+}
+
+
+
+
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: azure;
+}
+
 #ButtonCopiar{
     display: none;
 }
