@@ -1,7 +1,7 @@
-var btn = document.querySelector("#ButtonEncriptar");
+/* var btn = document.querySelector("#ButtonEncriptar");
 var btn2 = document.querySelector("#ButtonDesencriptar");
 var btn3 = document.querySelector("#ButtonCopiar")
-
+ */
 
 
 
@@ -17,6 +17,7 @@ var textoEncriptado = textoEncriptado.replace(/u/img, "ufat");
 
 document.getElementById("textoDesencriptado").innerHTML=textoEncriptado;
 document.getElementById("ButtonCopiar").style.display="show";
+document.getElementById("subtitle").style.display="none";
 document.getElementById("ButtonCopiar").style.display="inherit";
 
 
